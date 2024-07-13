@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #3D550C;
+}
+
+#name {
+    font-size: 80px;
+    font-family: "Roboto Mono", monospace;
+    color: #3D550C;
+    line-height: 50px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.timer-container {
+    height: 500px;
+    width: 800px;
+    text-align: center;
+    background: #ECF87F;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px white;
+}
+
+#timer {
+    font-size: 100px;
+    margin-bottom: 50px;
+}
+
+input {
+    width: 50px;
+    margin: 20px 5px;
+    text-align: center;
+    font-size: 18px;
+    border: none;
+    
+}
+
+button {
+    margin: 15px;
+    padding: 20px 20px;
+    width: 150px;
+    font-size: 32px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #59981A;
+    color: white;
+}
+
+button:hover {
+    background-color: #81B622;
+    box-shadow: 2px 2px 10px rgb(0, 0, 0);
+}
